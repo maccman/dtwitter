@@ -1,0 +1,5 @@
+Beginnings of an idea for a distributed Twitter.
+
+Alpha code - not in a working state.
+
+The major issue at the moment is the distributed namespace - matching up @maccman to alex@madebymany.co.uk - and making sure @maccman is unique across the whole system. Let me know if you can think of a solution ;)

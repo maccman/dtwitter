@@ -1,0 +1,10 @@
+<%= render :partial => "new" %>
+<hr />
+
+<%- @messages.each do |message| -%>
+  <%= render :partial => "message", :locals => {:message => message} %> <hr />
+<%- end -%>
+
+<% if @messages.empty? %>
+  No messages
+<%- end -%>

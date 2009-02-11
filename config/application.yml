@@ -1,0 +1,15 @@
+:defaults: &defaults
+  :app_name: SocialMod
+  :app_domain: localhost:3000
+  :app_site: http://localhost:3000
+  :endpoint: localhost
+    
+:development:
+  <<: *defaults
+
+:test:
+  <<: *defaults
+
+:production:
+  <<: *defaults
+  
